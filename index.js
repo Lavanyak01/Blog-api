@@ -14,7 +14,7 @@ dotenv.config();
 app.use(express.json());
 app.use(
     cors({
-        origin: ["http://localhost:3000", "https://blog-app-w5i7.onrender.com"],
+        origin: ["http://localhost:3000", "https://blog-app-g3f9.onrender.com"],
     })
    );
 app.use("/images", express.static(path.join(__dirname, "/images")));
